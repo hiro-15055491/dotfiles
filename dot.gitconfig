@@ -1,0 +1,40 @@
+[core]
+  excludesfile = ~/.gitignore
+  quotepath    = false
+  autocrlf     = false  # from win mozc install doc
+  filemode     = false
+  editor       = /usr/bin/vim
+
+[color]
+  ui = true
+  # color settings
+  status      = auto
+  diff        = auto
+  branch      = auto
+  interactive = auto
+  grep        = auto
+
+[alias]
+  st  = status
+  ft  = fetch
+  fto = fetch origin
+  cam = commit --amend
+  cma = commit -a
+  co  = checkout
+  cob = checkout -b
+  br  = branch
+  brm = branch -m
+  bra = branch -a
+  brd = branch -D
+  msq = merge --squash
+  rbi = rebase -i
+  rbc = rebase --continue
+  chp = cherry-pick
+  pso = push origin
+  plo = pull origin
+
+[push]
+  default = simple
+[user]
+	name = USERNAME
+	email = EMAIL

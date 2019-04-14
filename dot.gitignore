@@ -1,0 +1,13 @@
+*.swp
+*.swo
+*.log
+.~lock.*
+*.tags
+
+*.bak
+*.log
+*.orig
+*.old
+
+# spacemacs
+.\#*
